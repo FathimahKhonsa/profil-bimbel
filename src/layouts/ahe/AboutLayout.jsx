@@ -15,7 +15,7 @@ const AboutLayout = () => {
           <div className='w-full h-[0.5px] bg-grey-medium my-5'></div>
           <div className='flex items-center gap-5'>
             <div className='w-1/2 overflow-hidden'>
-              <img src='src/assets/images/ahe/modulAhe.png' className='w-full object-cover object-center'/>
+              <img src='/images/ahe/modulAhe.png' className='w-full object-cover object-center'/>
             </div>
             <div className='w-1/2'>
               <h1 className='lg:text-4xl sm:text-3xl text-2xl text-grey-dark font-semibold font-poppins text-end'>Level <span className='text-primary-blue'>Baca AHE</span></h1>
@@ -25,7 +25,7 @@ const AboutLayout = () => {
 
         </div>
         <div className='lg:w-1/2 rounded-xl overflow-hidden shadow-2xl mt-5 lg:mt-0'>
-          <img src='src/assets/images/ahe/EnamLangkahAhe.png' className='w-full object-cover object-left-bottom h-full'/>
+          <img src='/images/ahe/EnamLangkahAhe.png' className='w-full object-cover object-left-bottom h-full'/>
         </div>
       </div>
 

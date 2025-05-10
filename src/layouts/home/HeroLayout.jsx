@@ -23,7 +23,7 @@ const HeroLayout = () => {
           <p className='text-md lg:text-lg md:text-base text-grey-medium font-normal font-lora '>Raih Prestrasi Terbaik Bersama</p>
           <h1 className='md:text-5xl lg:text-8xl text-4xl text-grey-dark font-bold font-poppins hover:scale-110 hover:text-primary-blue'>CITA MUTIARA</h1>
           <p className='text-base lg:text-lg text-grey-medium font-normal font-lora'>Bimbingan Belajar dan Sekolah Berkualitas untuk meraih Masa Depan Gemilang.</p>
-          <img src='src/assets/images/newStudents.png' className='w-full sm:px-10 sm:py-5 mt-3 md:hidden' alt='Image Hero'/>
+          <img src='/images/newStudents.png' className='w-full sm:px-10 sm:py-5 mt-3 md:hidden' alt='Image Hero'/>
           <div className='flex flex-col items-end w-full md:mt-5'>
               <p className='text-md text-grey-medium font-lora'>
                 Get to know us:
@@ -39,13 +39,13 @@ const HeroLayout = () => {
 
           <div className='flex mt-10 lg:gap-5 gap-3'>
               <div>
-                <img src='src/assets/images/icSchool.png' className='h-12 lg:h-14'/>
+                <img src='/images/icSchool.png' className='h-12 lg:h-14'/>
                 <p className='font-lora text-sm md:text-base font-light'>School,</p>
                 <p className='font-semibold text-sm lg:text-base font-poppins'>Cita Mutiara Islamic Global School</p>
               </div>
               <div className='h-30 border-l border-grey-light w-1.5 mx-5'></div>
               <div>
-                <img src='src/assets/images/iconEducation.png' className='h-12 lg:h-14'/>
+                <img src='/images/iconEducation.png' className='h-12 lg:h-14'/>
                 <p className='font-lora text-sm md:text-base font-light'>Bimbel,</p>
                 <p className='font-semibold text-sm lg:text-base font-poppins'>Rumah Belajar Cita Mutiara</p>
               </div>
@@ -53,7 +53,7 @@ const HeroLayout = () => {
       
         </div>
         <div className='hidden md:block w-1/2 lg:p-10 md:px-3'>
-          <img src='src/assets/images/newStudents.png' className='w-full' alt='Image Hero'/>
+          <img src='/images/newStudents.png' className='w-full' alt='Image Hero'/>
         </div>
       </div>
     </div>

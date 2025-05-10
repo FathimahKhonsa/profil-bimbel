@@ -147,10 +147,10 @@ const AboutLayout = () => {
 
         <div className='flex p-5'>
           <div className='overflow-hidden w-80 lg:w-80 md:w-60 h-fit -rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/HeroImg.jpg' className='object-cover object-center'/>
+            <img src='/images/HeroImg.jpg' className='object-cover object-center'/>
           </div>
           <div className='overflow-hidden w-80 lg:w-80 md:w-60 border-2 border-gray-100 h-fit mt-7 -mx-1 rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/STEAM.jpg' className='object-cover object-center'/>
+            <img src='/images/STEAM.jpg' className='object-cover object-center'/>
           </div>
         </div>
       </div>
@@ -158,16 +158,16 @@ const AboutLayout = () => {
       <div className='md:flex items-center justify-between mt-5 mb-10'>
         <div className='hidden md:flex p-5'>
           <div className='overflow-hidden w-80 lg:w-80 md:w-60 h-fit -rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/teachers.jpeg' className='object-cover object-center'/>
+            <img src='/images/teachers.jpeg' className='object-cover object-center'/>
           </div>
           <div className='overflow-hidden w-80 lg:w-80 md:w-60 h-fit mt-7 -mx-1 rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/classroom.png' className='object-cover object-center'/>
+            <img src='/images/classroom.png' className='object-cover object-center'/>
           </div>
         </div>
 
         <div className='p-5'>
           <div className='flex md:justify-end'>
-            <img src='src/assets/images/pin.png' className='lg:h-10 h-8 rotate-270 mr-3'/>
+            <img src='/images/pin.png' className='lg:h-10 h-8 rotate-270 mr-3'/>
             <h1 className='text-primary-blue font-poppins font-bold lg:text-4xl text-3xl'>Fasilitas Sekolah</h1>
           </div>
           <p className='font-semibold lg:text-2xl md:text-lg text-xl font-lora italic text-grey-medium mt-5 md:text-end'>
@@ -191,10 +191,10 @@ const AboutLayout = () => {
 
           <div className='flex mt-7 md:hidden'>
           <div className='overflow-hidden w-80 h-fit -rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/teachers.jpeg' className='object-cover object-center'/>
+            <img src='/images/teachers.jpeg' className='object-cover object-center'/>
           </div>
           <div className='overflow-hidden w-80 border-2 border-gray-100 h-fit mt-7 -mx-1 rotate-5 rounded-xl shadow-xl'>
-            <img src='src/assets/images/classroom.png' className='object-cover object-center'/>
+            <img src='/images/classroom.png' className='object-cover object-center'/>
           </div>
         </div>
         </div>

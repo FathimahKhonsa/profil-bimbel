@@ -35,9 +35,9 @@ const HeroLayout = () => {
     <div className='container w-full mx-auto'>
       <div className='w-full md:p-10 p-5 bg-primary-blue rounded-br-4xl'>
         <div className='md:flex justify-between'>
-            <img src='src/assets/images/plane.png' className='lg:h-20 h-14 -rotate-12'/>
+            <img src='/images/plane.png' className='lg:h-20 h-14 -rotate-12'/>
             <h1 className='text-2xl lg:text-3xl font-semibold text-black font-poppins lg:max-w-1/2 md:max-w-2/3 text-center'>Shape Your <span className='text-white'>Kid's Future</span> With <span className='text-white'>Cita Mutiara Islamic Global School</span></h1>
-            <img src='src/assets/images/shootingStar.png' className='hidden md:block lg:h-20 h-14'/>
+            <img src='/images/shootingStar.png' className='hidden md:block lg:h-20 h-14'/>
         </div>
 
         <div className='flex flex-wrap justify-center gap-3 md:gap-7 mt-3'>
@@ -54,7 +54,7 @@ const HeroLayout = () => {
 
         <div className='md:flex md:mt-10 mt-5 items-center gap-5 md:mb-14'>
             <div className='lg:w-1/3 md:w-1/2  rounded-4xl overflow-hidden shadow-xl'>
-                <img src='src/assets/images/TK.jpeg' className='object-cover object-center'/>
+                <img src='/images/TK.jpeg' className='object-cover object-center'/>
             </div>
             <div className='lg:w-1/3 md:w-1/2 flex flex-col items-center'>
                 <p className='font-lora text-white text-center lg:text-lg md:text-base md:text-justify text-sm mt-5 md:mt-0'>
@@ -63,25 +63,25 @@ const HeroLayout = () => {
                 <Button onClick={handleWa} classname='rounded-full text-white bg-black py-1 px-10 hover:bg-white  hover:text-black text-center mt-5 lg:text-lg md:text-base w-fit' text='Daftar Sekarang'/>
             </div>
             <div className='hidden lg:block lg:w-1/3 rounded-4xl overflow-hidden shadow-xl'>
-                <img src='src/assets/images/TK2.jpeg' className='object-cover object-center'/>
+                <img src='/images/TK2.jpeg' className='object-cover object-center'/>
             </div>
         </div>
       </div>
 
       <div className='hidden  bg-black rounded-tr-4xl md:flex  w-fit p-5 lg:gap-7  gap-3 shadow mb-7 -translate-y-14'>
             <div className='flex items-center gap-3'>
-               <img src='src/assets/images/mosque.png' className='lg:max-h-16 max-h-14 '/>
+               <img src='/images/mosque.png' className='lg:max-h-16 max-h-14 '/>
                <p className='text-white lg:text-2xl text-xl font-poppins font-semibold'>Islamic Learning</p>
             </div>
             <div className='h-16 w-[0.5px] bg-white'></div>
             <div className='flex items-center gap-3'>
-               <img src='src/assets/images/flag.png' className='lg:max-h-16 max-h-14'/>
+               <img src='/images/flag.png' className='lg:max-h-16 max-h-14'/>
                <p className='text-white lg:text-2xl text-xl font-poppins font-semibold'>Semi International</p>
             </div>
             <div className='h-16 w-[0.5px] bg-white'></div>
-            <div className='flex items-center gap-3 mr-5'>
-               <img src='src/assets/images/project.png' className='lg:max-h-16 max-h-14'/>
-               <p className='text-white lg:text-2xl text-xl font-poppins font-semibold'>Project Based</p>
+            <div className='flex items-center gap-3'>
+               <img src='/images/project.png' className='lg:max-h-16 max-h-14'/>
+               <p className='text-white lg:text-2xl text-xl font-poppins font-semibold'>Semi International</p>
             </div>
       </div>
     </div>

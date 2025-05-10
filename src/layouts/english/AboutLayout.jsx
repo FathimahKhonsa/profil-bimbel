@@ -19,7 +19,7 @@ const AboutLayout = () => {
               </p>
             </div>
             <div className='flex justify-end'>
-              <img src='src/assets/images/world.png' className='md:h-28 h-24'/>
+              <img src='/images/world.png' className='md:h-28 h-24'/>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ const AboutLayout = () => {
               </p>
             </div>
             <div className='flex md:justify-end'>
-              <img src='src/assets/images/goodCareer.png' className='md:h-28 h-24'/>
+              <img src='/images/goodCareer.png' className='md:h-28 h-24'/>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const AboutLayout = () => {
               </p>
             </div>
             <div className='flex justify-end'>
-              <img src='src/assets/images/networking.png' className='md:h-28 h-24'/>
+              <img src='/images/networking.png' className='md:h-28 h-24'/>
             </div>
           </div>
         </div>

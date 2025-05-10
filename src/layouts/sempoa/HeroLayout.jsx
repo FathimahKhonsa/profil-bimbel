@@ -10,7 +10,7 @@ const HeroLayout = () => {
     <div className='container w-full h-fit mx-auto md:p-10 bg-yellow-50'>
       <div className='md:flex lg:gap-10 gap-5 items-stretch  h-full'>
         <div className='md:w-1/2 shadow-2xl rounded-2xl'>
-            <img src='src/assets/images/sempoa.jpg' className='w-full h-full object-cover object-center md:rounded-2xl'/>
+            <img src='/images/sempoa.jpg' className='w-full h-full object-cover object-center md:rounded-2xl'/>
         </div>
         <div className='md:w-1/2 p-5 md:p-0'>
             <h1 className='lg:text-6xl md:text-3xl text-2xl md:mt-0 text-grey-dark font-bold font-poppins'>Maksimalkan Potensi Kecerdasan Anak Bersama <span className='text-primary-blue'>Sempoa Asma</span></h1>

@@ -21,7 +21,7 @@ const SchoolLayout = () => {
           <Button onClick={handleClick} text='See More' icon={<GoArrowUpRight className='ml-5'/>} classname='text-white lg:text-lg text-base font-semibold hover:text-primary-blue hover:bg-white hover:border-2 hover:border-primary-blue bg-primary-blue py-1 px-7 rounded-full mt-5 shadow w-full md:max-w-56 sm:max-w-56'/>
         </div>
         <div className='md:w-1/3  sm:h-72 md:h-80 lg:h-72 h-52 w-full mt-5 rounded-xl shadow-xl overflow-hidden'>
-          <img src='src/assets/images/TK.jpeg' className=' object-cover w-full h-full object-center rounded-xl'/>
+          <img src='/images/TK.jpeg' className=' object-cover w-full h-full object-center rounded-xl'/>
         </div>
       </div>
     </div>

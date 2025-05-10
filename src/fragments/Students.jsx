@@ -6,9 +6,9 @@ const Students = (props) => {
   return (
     <div>
       <div className={`flex mx-1 ${classname}  w-full`}>
-        <ProfilePict imgUrl='src/assets/images/ProfilePic.jpg' classname={modif}/>
-        <ProfilePict imgUrl='src/assets/images/ProfilePic.jpg' classname={modif}/>
-        <ProfilePict imgUrl='src/assets/images/ProfilePic.jpg' classname={modif}/>
+        <ProfilePict imgUrl='/images/ProfilePic.jpg' classname={modif}/>
+        <ProfilePict imgUrl='/images/ProfilePic.jpg' classname={modif}/>
+        <ProfilePict imgUrl='/images/ProfilePic.jpg' classname={modif}/>
       </div>
      
       <div>

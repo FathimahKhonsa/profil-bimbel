@@ -47,12 +47,12 @@ const AboutLayout = () => {
          whileInView={'show'}
          viewport={{once: false, amount: 0.5}}>
         <div className='hidden md:block md:w-1/3 h-full sm:h-full rounded-lg shadow overflow-hidden lg:h-80'>
-          <img src='src/assets/images/Founder.jpeg' alt='Founder' className='h-full w-full object-cover rounded-lg'/>
+          <img src='/images/Founder.jpeg' alt='Founder' className='h-full w-full object-cover rounded-lg'/>
         </div>
         <div className='md:w-2/3'>
           <p className='text-2xl md:text-3xl lg:text-4xl font-poppins font-semibold text-grey-dark mt-10 md:mt-0'>Meet The Founder</p>
           <div className='w-full bg-grey-light h-[0.5px] my-2'></div>
-          <img src='src/assets/images/Founder.jpeg' alt='Founder' className='md:hidden h-52 sm:h-60 w-full object-cover rounded-lg my-5'/>
+          <img src='/images/Founder.jpeg' alt='Founder' className='md:hidden h-52 sm:h-60 w-full object-cover rounded-lg my-5'/>
           <p className='font-lora text-sm lg:text-base text-justify font-light text-grey-medium h-fit'>
             Berangkat dari kepedulian terhadap kualitas pendidikan di Indonesia, khusunya bagi anak -anak yang membutuhkan dukungan lebih, Saya mendirikan Rumah Belajar Cita Mutiara yang menjadi cikal bakal lahirnya Yayasan Cita Mutiara Al Mahira. Dengan tekad untuk memberikan akses pendidikan yang lebih merata, lembaga ini berkembang dari bimbingan belajar informal menjadi institusi pendidikan formal yang berfokus pada bidang STEAM (Science, Technology, Engineering, Arts, and Mathematics), pembentukan karakter, serta pengembangan potensi anak secara holistik. Sebagai pendiri, saya percaya bahwa setiap anak memiliki mutiara dalam dirinya yang perlu diasah melalui pendidikan yang bermakna, insklusif, dan penuh cinta. Yayasan ini lahir dari mimpi sederhana : Menciptakan ruang belajar yang bukan hanya mengajar, tetapi juga menginspirasi dan membentuk generasi hebat, berdaya, dan berakhlak.
           </p>

@@ -9,7 +9,7 @@ const HeroLayout = () => {
   return (
     <div className='container w-full h-full mx-auto'>
         <div className='md:flex md:flex-col w-full '>
-            <div className='lg:h-96 md:h-80 h-60 bg-[url(src/assets/images/bigben.jpg)] bg-cover bg-center'>
+            <div className='lg:h-96 md:h-80 h-60 bg-[url(/images/bigben.jpg)] bg-cover bg-center'>
                 
             </div>
             <div className='p-5 md:flex items-stretch lg:gap-10 md:gap-5 '>
@@ -23,7 +23,7 @@ const HeroLayout = () => {
                     </div>
                 </div>
                 <div className='hidden md:block w-1/3 rounded-xl'>
-                    <img src='src/assets/images/english.jpg' className='object-cover object-center w-full h-full rounded-xl'/>
+                    <img src='/images/english.jpg' className='object-cover object-center w-full h-full rounded-xl'/>
                 </div>
             </div>
         </div>
