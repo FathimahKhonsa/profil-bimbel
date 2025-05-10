@@ -12,7 +12,7 @@ const AboutLayout = () => {
       </p>
 
       <div className='mt-5 flex justify-center bg-radial from-pink-100 from-5% to-white to-50%'>
-        <img src='src/assets/images/AboutSempoa.png' className='lg:w-2/3 '/>
+        <img src='/images/AboutSempoa.png' className='lg:w-2/3 '/>
       </div>
 
       <div className='md:mt-20 mt-10'>
