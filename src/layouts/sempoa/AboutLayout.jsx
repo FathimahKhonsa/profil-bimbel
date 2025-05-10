@@ -52,7 +52,7 @@ const AboutLayout = () => {
         <div className='md:w-2/3 hidden md:block'>
           <h1 className='lg:text-6xl md:text-3xl font-semibold font-poppins text-grey-dark'>Level Belajar <span className='text-primary-blue'>Sempoa</span></h1>
           <p className='lg:text-lg text-sm font-lora font-light text-grey-medium text-justify lg:mt-7 mt-4'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem sit amet tellus elementum, non vestibulum nibh suscipit. Quisque id lobortis sem, non vulputate nisl. Ut ut ligula ac elit eleifend commodo quis at mauris. Morbi accumsan est in mi fringilla rhoncus. Nam pulvinar tellus at odio maximus molestie eu mollis ante. Nulla et finibus dolor. Etiam et quam tristique, condimentum dolor in, commodo tellus.
+              Program belajar Sempoa terdiri dari 10 level yang dirancang secara bertahap untuk mengembangkan kemampuan berhitung anak. Setiap level bertujuan meningkatkan keterampilan aritmatika, konsentrasi, dan daya ingat melalui latihan menggunakan sempoa dan metode mental aritmatika. Perkembangan dari satu level ke level berikutnya memungkinkan anak untuk menguasai operasi matematika yang semakin kompleks dengan kecepatan dan ketepatan yang lebih tinggi.
           </p>
         </div>
       </div>
