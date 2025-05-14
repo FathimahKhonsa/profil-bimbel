@@ -12,7 +12,7 @@ const AboutLayout = () => {
         <p className='text-2xl md:text-3xl lg:text-4xl font-semibold text-white font-poppins'>About Us</p>
         <div className='md:flex justify-between items-center gap-10'>
           <div className='md:w-3/4'>
-            <p className='text-white text-base lg:text-lg font-light font-lora mt-5 text-justify'>Cita Mutiara merupakan sebuah yayasan yang menaungi Cita Mutiara Islamic School dan Rumah Belajar Cita Mutiara yang merupakan sebuah tempat dimana pendidikan berkualitas bertemu dengan dedikasi tingi untuk mencetak generasi unggul dan berakhlak mulia. Kami merupakan lembaga pendidikan yang menggabungkan sisitem pembelajaran formal sekolah dengan Bimbingan belajar yang terstruktur dan inovatif.</p>
+            <p className='text-white text-base lg:text-lg font-light font-lora mt-5 text-justify'>Cita Mutiara merupakan sebuah yayasan yang menaungi Cita Mutiara Islamic School dan Rumah Belajar Cita Mutiara yang merupakan sebuah tempat dimana pendidikan berkualitas bertemu dengan dedikasi tinggi untuk mencetak generasi unggul dan berakhlak mulia. Kami merupakan lembaga pendidikan yang menggabungkan sistem pembelajaran formal sekolah dengan Bimbingan belajar yang terstruktur dan inovatif.</p>
           </div>
           <div className='md:w-1/4 flex md:justify-center justify-start'>
               <Students
