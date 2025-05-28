@@ -122,7 +122,7 @@ const AboutLayout = () => {
       <div className='md:flex items-center justify-between '>
         <div className='p-5'>
           <div className='flex'>
-            <img src='src/assets/images/pin.png' className='lg:h-10 h-8 rotate-270 mr-3'/>
+            <img src='/images/pin.png' className='lg:h-10 h-8 rotate-270 mr-3'/>
             <h1 className='text-primary-blue font-poppins font-bold lg:text-4xl text-3xl'>Program Unggulan</h1>
           </div>
           <p className='font-semibold lg:text-2xl md:text-lg text-xl font-lora italic text-grey-medium mt-5'>
