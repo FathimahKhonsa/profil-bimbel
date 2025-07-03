@@ -4,8 +4,6 @@ import { dataProgram } from '../../data/data';
 import { Navigate, useNavigate } from 'react-router';
 
 const ProgramLayout = () => {
- 
-
   return (
     <div id='idProgram' className='container mx-auto w-full h-fit lg:px-7'>
       <div className='px-5 md:flex md:justify-between md:items-center'>
