@@ -32,7 +32,7 @@ const AboutLayout = () => {
          whileInView={'show'}
          viewport={{once: false, amount: 0.5}}>
         {dataAbout.map((item, i) => (
-          <CardOne classname='mt-5'>
+          <CardOne key={item.id} classname='mt-5'>
             <CardOne.Header title={item.title}/>
             <CardOne.Body>
               {item.content}

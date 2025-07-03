@@ -19,7 +19,7 @@ const CabangLayout = () => {
         viewport={{once: false, amount: 0.5}}
       >
         {dataCabang.map((item, i) => (
-          <CardThree classname='hover:scale-105 mt-5 w-fit bg-blue-100 '>
+          <CardThree key={item.id} classname='hover:scale-105 mt-5 w-fit bg-blue-100 '>
             <CardThree.Header imgUrl={item.imgUrl} classname='w-20 md:w-20 lg:w-24'/>
             <CardThree.Body title={item.cabang} content={item.address} classname='md:max-w-30 sm:max-w-56 lg:max-w-52 max-w-50'/>
           </CardThree>
